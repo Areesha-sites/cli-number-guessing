@@ -1,9 +1,10 @@
 {
   "name": "@code-with-areeshaa/cli-number-guessing",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is my CLI number guessing game.",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -18,6 +19,7 @@
     "@types/node": "^20.11.30"
   },
   "dependencies": {
+    "chalk": "^5.3.0",
     "inquirer": "^9.2.16"
   }
 }
